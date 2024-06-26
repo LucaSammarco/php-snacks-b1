@@ -9,16 +9,35 @@ $testo = "GALADRIEL: I amar prestar aen. Il mondo è cambiato. Han mathon ne nen
 
 $testoArray = str_split($testo);
 
-// var_dump($testoArray);
-
 $testoArray = (explode(".",$testo));
 
-var_dump($testoArray);
-
-foreach ($testoArray as $key => $value) {
-    
-    echo $testoArray[$key];
-}
 ?>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<main>
+
+<?php
+
+foreach ($testoArray as $key => $value) {
+    
+        echo "<p>{$testoArray[$key]}</p>";
+    }
+
+?>
+
+
+</main>
+
+
+
+</body>
+</html>

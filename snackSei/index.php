@@ -27,7 +27,7 @@ Buon lavoro a tutte e a tutti! -->
         ]
     ];
  
-    var_dump($db);
+    // var_dump($db);
 
  ?>
 
